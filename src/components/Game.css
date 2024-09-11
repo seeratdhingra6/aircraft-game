@@ -1,0 +1,45 @@
+.game-container {
+    position: relative;
+    padding: 15px;
+  }
+  
+  canvas {
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 15px;
+  }
+  
+  button:disabled {
+    background-color: grey;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #28A745;
+    color: white;
+    border: none;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  .stats {
+    font-size: 20px;
+  }
+
+  .red {
+    color: red;
+  }
+
+  .green {
+    color: green;
+  }
